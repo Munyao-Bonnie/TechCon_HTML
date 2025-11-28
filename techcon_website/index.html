@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techcon 2024</title>
+</head>
+<body>
+    <header>
+        <h1>TechCon 2024</h1>
+        
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content -->
+    <main>
+        <section>
+            <h2>Welcome to TechCon 2024</h2>
+            <p>
+                TechCon 2024 is the premier technology conference bringing together innovators, 
+                developers, designers, and industry leaders from around the world. Join us on 
+                November 15-17, 2024 in San Francisco for three days of inspiring keynotes, 
+                hands-on workshops, and unparalleled networking opportunities.
+            </p>
+
+            <!-- Embedded promotional video with full accessibility -->
+            <video controls poster="video-poster.jpg" aria-describedby="video-desc">
+                <source src="promo-video.mp4" type="video/mp4">
+                <source src="promo-video.webm" type="video/webm">
+                <track kind="captions" src="captions.vtt" srclang="en" label="English captions" default>
+                Your browser does not support the video tag. 
+                <a href="promo-video.mp4">Download the video</a> instead.
+            </video>
+            <p id="video-desc" class="sr-only">
+                Promotional video showcasing highlights from previous TechCon events and what to expect in 2024.
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 TechCon Conference. All rights reserved.<br><small>Organized by TechEvents Inc.</small></p>
+    </footer>
+</body>
+</html>
